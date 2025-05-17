@@ -1,0 +1,17 @@
+*{
+    margin: 50px;
+}
+img{
+    width: 500px;
+}
+h1, h2{
+    text-align: center;
+}
+.about{
+    border: 2px solid rgb(148, 212, 240);
+    border-radius: 10px;
+    background-color: rgb(148, 212, 240);
+}
+li{
+    margin-top: 2px;
+}
