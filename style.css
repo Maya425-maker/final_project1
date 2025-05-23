@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+*{
+    scroll-behavior: smooth;
+    margin: 30px;
+}
+img{
+    width: 500px;
+    padding: 10px 480px;
+}
+@media(min-width: 768px){
+    img{
+        margin: 60px;
+    }
+}
+h1, h2{
+    text-align: center;
+}
+.about{
+    border: 2px solid rgb(148, 212, 240);
+    border-radius: 10px;
+    background-color: rgb(148, 212, 240);
+}
+a{
+    margin: 10px 5px;
+    text-decoration: none;
+}
+.button{
+    text-decoration: none;
+    color: black;
+    background-color: sandybrown;
+    border-radius: 10px;
+    padding: 8px;
+    margin: 0px;
+}
+.button:hover{
+    transition: 0.3s;
+    background-color: rgb(185, 114, 52);
+}
+.button:active{
+    background-color: rgb(128, 73, 25);
+    color: white;
+}
+.all{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style-type: none;
+}
+.Pippi{
+    background-color: rgb(236, 218, 194);
+    border-radius: 10px;
+    padding: 10px;
+}
+.Emil{
+    background-color: rgb(236, 218, 194);
+    border-radius: 10px;
+    padding: 10px;
+}
+.Roni{
+    background-color: rgb(236, 218, 194);
+    border-radius: 10px;
+    padding: 10px;
+}
+.Karlson{
+    background-color: rgb(236, 218, 194);
+    border-radius: 10px;
+    padding: 10px;
+}
+.Rasmus{
+    background-color: rgb(236, 218, 194);
+    border-radius: 10px;
+    padding: 10px;
+}
+.up{
+    color: black;
+    background-color: sandybrown;
+    border-radius: 10px;
+    padding: 5px;
+}
+.up:hover{
+    transition: 0.3s;
+    background-color: rgb(185, 114, 52);
+}
+.up:active{
+    transition: 0.3s;
+    background-color: rgb(128, 73, 25);
+    color: white;
+}
+.error{
+    color: black;
+}
